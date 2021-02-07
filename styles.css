@@ -1,10 +1,9 @@
-.title {
-  font-family: 'Roboto'sans-serif;
-}
-.menu {
+.menu__item {
   font-family:'Roboto',sans-serif;
 }
-
-button {
+.main-content__description {
+  font-family: 'Roboto'sans-serif;
+}
+.image-content__image {
   font-family: 'Roboto',sans-serif;
 }
