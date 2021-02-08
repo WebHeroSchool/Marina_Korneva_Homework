@@ -1,9 +1,35 @@
+.header {
+  display:flex;
+  justify-content:space-between;
+}
+body {
+  margin:0;
+}
+.wrapper {
+  margin:auto;
+  width:80%;
+}
+.logo,.menu {
+  display:inline-block;
+}
+.logo {
+  margin-right:63%;
+  padding:40px 0;
+}
 .menu {
+  display:flex;
+  align-items:center;
+}
+.menu__item {
   font-family:'Roboto',sans-serif;
+  padding: 0 13px;
+}
+.menu__item:last-child {
+  padding-right: 0;
 }
 .main-content__description {
-  font-family: 'Roboto'sans-serif;
+  font-family:'Roboto'sans-serif;
 }
-.image-content__image {
-  font-family: 'Roboto',sans-serif;
+.main-content__button {
+  font-family:'Roboto',sans-serif;
 }
