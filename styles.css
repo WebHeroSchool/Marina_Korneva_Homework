@@ -9,6 +9,16 @@ body {
 .wrapper {
   margin: 0 200px 0 195px;
 }
+.image {
+  position: absolute;
+  top: 242px;
+  right: 200px;
+  z-index: -5;
+  width: 770px;
+  height: 657px;
+  background: no-repeat url(img/image.svg);
+  background-size: cover;
+}
 .logo,.menu {
   display: inline-block;
 }
@@ -87,7 +97,7 @@ body {
 }
 .main {
   padding: 0 50% 181px 0;
-  background: bottom 170px right 0 no-repeat url(img/image.svg);
+//  background: bottom 170px right 0 no-repeat url(img/image.svg);
 }
 .main__title {
   width: 567px;
