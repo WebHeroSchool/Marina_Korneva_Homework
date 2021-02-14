@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 .header {
-  margin: 40px 0 243px 0;
+  margin: 40px 0 240px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -12,7 +12,7 @@ body {
 .image {
   position: absolute;
   top: 242px;
-  right: 200px;
+  right: 210px;
   z-index: -5;
   width: 770px;
   height: 657px;
@@ -31,7 +31,7 @@ body {
   padding-left: 44px;
   padding-bottom: 3px;
   padding-right: 0;
-  font: 24px/32px pt_serifbold, sans-serif, arial, helvetica;
+  font: 24px/32px 'pt_serifbold', sans-serif, arial, helvetica;
   color: #000000;
 }
 .logo__circle {
@@ -62,8 +62,8 @@ body {
 }
 .menu__item {
   position: relative;
-  margin-right: 26px;
-  font: normal 500 18px/21px 'roboto', sans-serif, arial, helvetica;
+  margin-right: 25px;
+  font: normal 500 18px/21px 'Roboto', sans-serif, arial, helvetica;
   text-decoration: none;
   color: #000000;
   transition: all 0.4s;
@@ -96,30 +96,31 @@ body {
   margin-right: 0;
 }
 .main {
-  padding: 0 50% 181px 0;
+  padding: 0 1158px 181px 0;
 }
 .main__title {
   width: 567px;
   height: 255px;
   margin: 0 0 40px 0;
-  font: normal 66px/87px 'pt_serifbold', sans-serif, arial, helvetica;
+  font: normal 700 66px/87px 'pt_serifbold', sans-serif, arial, helvetica;
   color: #000000;
 }
 .main__title-text_highlight {
   background: #C8DBFB;
+  border-radius: 4px;
 }
 .main__description {
   width: 455px;
   height: 52px;
   margin: 0 0 59px 0;
-  font: normal 500 22px/26px 'roboto', sans-serif, arial, helvetica;
+  font: normal 400 22px/26px 'Roboto', sans-serif, arial, helvetica;
   color: #000000;
 }
 .main__button {
-  width: 270px;
-  height: 57px;
-  padding: 18px 20px;
-  font: normal 500 18px/21px 'roboto', sans-serif, arial, helvetica;
+  width: 280px;
+  height: 60px;
+  padding: 18px 30px;
+  font: normal 500 18px/21px 'Roboto', sans-serif, arial, helvetica;
   color: #FFFFFF;
   text-decoration: none;
   background: #0056EC;
@@ -134,6 +135,9 @@ body {
   .wrapper {
     margin: 0 25px;
   }
+  .logo__text {
+    display: none;
+  }
   .menu {
     display: none;
   }
@@ -143,7 +147,7 @@ body {
   .image {
     position: absolute;
     top: 87px;
-    right: 48px;
+    left: 13%;
     z-index: -5;
     width: 280px;
     height: 239px;
@@ -151,7 +155,7 @@ body {
     background-size: cover;
   }
   .main {
-    padding: 74% 0 0;
+    padding: 74% 32px 0 32px;
     text-align: center;
   }
   .main__title {
