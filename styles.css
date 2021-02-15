@@ -1,28 +1,38 @@
-.header {
-  padding: 40px 0;
-  display: flex;
-  justify-content: space-between;
-}
 body {
   margin: 0;
 }
+.header {
+  margin: 40px 0 240px 0;
+  display: flex;
+  justify-content: space-between;
+}
 .wrapper {
-  margin: auto;
-  width: 80%;
+  margin: 0 215px 0 195px;
+}
+.image {
+  position: absolute;
+  top: 242px;
+  right: 205px;
+  z-index: -5;
+  width: 770px;
+  height: 657px;
+  background: no-repeat url(img/image.svg);
+  background-size: cover;
 }
 .logo,.menu {
   display: inline-block;
 }
 .logo {
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 190px;
   height: 35px;
   padding-left: 44px;
   padding-bottom: 3px;
   padding-right: 0;
-  font: 24px/32px pt_serifbold, sans-serif, arial, helvetica;
+  font: 24px/32px 'pt_serifbold', sans-serif, arial, helvetica;
+  color: #000000;
 }
 .logo__circle {
   position: absolute;
@@ -52,8 +62,8 @@ body {
 }
 .menu__item {
   position: relative;
-  margin-right: 26px;
-  font: normal 18px/21px 'roboto', sans-serif, arial, helvetica;
+  margin-right: 25px;
+  font: normal 500 18px/21px 'Roboto', sans-serif, arial, helvetica;
   text-decoration: none;
   color: #000000;
   transition: all 0.4s;
@@ -85,9 +95,38 @@ body {
 .menu__item:last-child {
   margin-right: 0;
 }
-.main-content__description {
-  font-family: 'roboto'sans-serif, arial, helvetica;
+.main {
+  padding: 0 75% 181px 0;
 }
-.main-content__button {
-  font-family: 'roboto',sans-serif, arial, helvetica;
+.main__title {
+  width: 567px;
+  height: 255px;
+  margin: 0 0 40px 0;
+  font: normal 700 66px/87px 'pt_serifbold', sans-serif, arial, helvetica;
+  color: #000000;
+}
+.main__title-text_highlight {
+  background: #E1EAF2;
+  border-radius: 4px;
+}
+.main__description {
+  width: 455px;
+  height: 52px;
+  margin: 0 0 59px 0;
+  font: normal 400 22px/26px 'Roboto', sans-serif, arial, helvetica;
+  color: #000000;
+}
+.main__button {
+  width: 280px;
+  height: 60px;
+  padding: 18px 30px;
+  font: normal 500 18px/21px 'Roboto', sans-serif, arial, helvetica;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #0056EC;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+.main__button:hover {
+  opacity: 0.5;
 }
