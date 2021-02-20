@@ -43,18 +43,81 @@ body {
   opacity: 0.7;
 }
 .logo__circle_color_dark-blue {
+  background: #0056EC;
+  animation: move 2s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+.logo__circle_color_blue {
+ background: #C8DBFB;
+ animation: move-2 2s infinite;
+ animation-direction: alternate;
+ animation-timing-function: linear;
+}
+@keyframes move {
+  from {
   left: 0;
   margin-right: 162px;
   margin-bottom: 7px;
   margin-top: 0px;
-  background: #0056EC;
+  }
+  25% {
+  left: 8px;
+  margin-right: 162px;
+  margin-bottom: 7px;
+  margin-top: 0px;
+  }
+  50% {
+  left: 8px;
+  margin-right: 162px;
+  margin-bottom: 0px;
+  margin-top: 7px;
+  }
+  75% {
+  left: 0px;
+  margin-right: 162px;
+  margin-bottom: 0px;
+  margin-top: 7px;
+  }
+  to {
+  left: 0;
+  margin-right: 162px;
+  margin-bottom: 7px;
+  margin-top: 0px;
+  }
 }
-.logo__circle_color_blue {
+
+@keyframes move-2 {
+  from {
   left: 8px;
   margin-top: 7px;
   margin-right: 154px;
   margin-bottom: 0;
-  background: #C8DBFB;
+  }
+  25% {
+  left: 0px;
+  margin-top: 7px;
+  margin-right: 154px;
+  margin-bottom: 0;
+  }
+  50% {
+  left: 0px;
+  margin-top: 0px;
+  margin-right: 154px;
+  margin-bottom: 7px;
+  }
+  75% {
+  left: 8px;
+  margin-top: 0px;
+  margin-right: 154px;
+  margin-bottom: 7px;
+  }
+  to {
+  left: 8px;
+  margin-top: 7px;
+  margin-right: 154px;
+  margin-bottom: 0;
+  }
 }
 .menu {
   display: flex;
